@@ -68,7 +68,7 @@ public class NutritionFacts {
 	 * @throws IllegalAccessException 
 	 */
 	private void checkValue() throws IllegalArgumentException {
-		if (servingSize > 10) {
+		if (servingSize == 10) {
 			throw new IllegalArgumentException("servingSize" + servingSize + "超出数值范围");
 		}
 	}

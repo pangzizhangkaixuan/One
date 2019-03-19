@@ -30,6 +30,6 @@ public class NyPizza extends Pizza {
 
 	@Override
 	public String toString() {
-		return "NyPizza [size=" + size + "]";
+		return "NyPizza [" + "toppings=" + super.toppings + ",size=" + size + "]";
 	}
 }
